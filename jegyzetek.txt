@@ -1,0 +1,25 @@
+Hibák:
+
+MainWindow.xaml.cs:
+55. sor
+
+65. sor
+66. sor
+
+61. sor
+
+Pixel.cs:
+
+40. sor
+41. sor
+42. sor
+
+ImageMatrix.cs:
+
+28. sor
+
+34. sor
+
+43. sor
+44. sor
+45. sor
