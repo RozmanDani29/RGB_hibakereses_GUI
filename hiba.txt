@@ -1,0 +1,18 @@
+Hibák:
+Mainwindow.xml.cs
+51.sor:for (int x=0; x < Rows;x++)-->for (int y =0; y< Colums;y++)
+53.sor:for (int y=0; y < Colums;y++)-->for (int x =0; x< Rows;x++)
+
+Pixel.cs
+public int R{get; set;} --> public byte R{get; set;}
+public int G{get; set;} --> public byte G{get; set;}
+public int B{get; set;} --> public byte B{get; set;}
+
+
+ImageMatrix.cs
+28.sor: if(lines.Lenght!= Width)-->if(lines.lenght!= Height)
+34.sor: string[] values = lines[y].Split(';') -->string[] values = lines[y].Split(' ')
+
+
+
+
