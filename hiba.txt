@@ -1,7 +1,20 @@
+feladatfelosztas
+segitseg Ai - Gemini
+kommunikaxio-tanora,dc
+kepernyokepek leiras
+txt nincs hiba, class hiba 
+
+
 Hibák:
+pixel class:
+
+
+
 Mainwindow.xml.cs
+62. sor
 51.sor:for (int x=0; x < Rows;x++)-->for (int y =0; y< Colums;y++)
 53.sor:for (int y=0; y < Colums;y++)-->for (int x =0; x< Rows;x++)
+61.sor color.fromArgb(p.R, p.G, p.B)  color.fromArgb(255,p.R, p.G, p.B)
 
 Pixel.cs
 public int R{get; set;} --> public byte R{get; set;}
@@ -10,9 +23,11 @@ public int B{get; set;} --> public byte B{get; set;}
 
 
 ImageMatrix.cs
-28.sor: if(lines.Lenght!= Width)-->if(lines.lenght!= Height)
-34.sor: string[] values = lines[y].Split(';') -->string[] values = lines[y].Split(' ')
-
+28.sor: if(lines.lenght!= width)-->if(lines.lenght!= Height);
+34.sor: string[] values = lines[y].split(';') -->string[] values = lines[y].split(' ')
+43.sor: byte r = byte.parse(values{index}); -->byte r = byte.parse(values{index++});
+44.sor: byte g = byte.parse(values{index}); -->byte g = byte.parse(values{index++});
+45.sor: byte b = byte.parse(values{index}); -->byte b = byte.parse(values{index++});
 
 
 
